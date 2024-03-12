@@ -4,7 +4,7 @@
   переключая тему
 */
 
-:root.theme_dark  {
+:root.theme_dark {
   --bg-color: #000028 ;
   --text-color: #F1B2CE;
   --accent-color: #FF0070;
@@ -13,8 +13,7 @@
   --border-button: rgba(255, 0, 112, 40%);
   --title-decor-color: #000028 ;
   --header-and-title-decor-color: #FF0070;
-  --visible: visible; 
-  
+  --visible: visible;  
 }
 
 .page.theme_dark {
@@ -27,7 +26,6 @@
   --header-and-title-decor-color: #FF0070;
   --backgroung-image: url(../images/cover-image-dark.png);
   --visible: visible; 
-
 }
 
 

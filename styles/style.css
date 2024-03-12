@@ -22,16 +22,16 @@ button:focus {
   margin: auto;
   padding: 0 20px;
   position: relative;
-  
-}
-
-.decorated-zone-picture {
   width: calc(100% + 40px);
   background-image: var(--backgroung-image);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
   background-attachment: fixed;
+}
+
+.decorated-zone-picture {
+  
 }
 
 .decorated-zone::after {   /* уголок нижний*/
@@ -126,9 +126,11 @@ button:focus-visible {
   outline: none;
   pointer-events: none;
   border: 1px solid var(--header-and-title-decor-color);
-  
 }
 
+.new-str {
+  display: inline-block;
+}
 
 .title {   /*  отдельный класс чтоб использовать в футере*/
   color: var(--header-text-color);
@@ -564,10 +566,7 @@ a:focus-visible {
   .footer_text {
     padding: 69% 0 69% 5.5%;
   }
-
-  .page-footer {
-    ma;
-  }
 }
+
 
 
