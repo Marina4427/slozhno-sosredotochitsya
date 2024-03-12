@@ -15,6 +15,7 @@
   --header-and-title-decor-color: #353430;
   --visible: hidden;
 
+
 }
 
 @media (prefers-color-scheme: light) {
@@ -28,6 +29,7 @@
     --title-decor-color: #353430;
     --header-and-title-decor-color: #353430;
     --visible: hidden;
+   
     }
 }
 
@@ -42,6 +44,7 @@
   --title-decor-color: #353430;
   --header-and-title-decor-color: #353430;
   --visible: hidden;
+  
 }
 
 
