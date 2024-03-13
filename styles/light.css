@@ -14,8 +14,7 @@
   --title-decor-color: #353430;
   --header-and-title-decor-color: #353430;
   --visible: hidden;
-
-
+  --offset: 20px;
 }
 
 @media (prefers-color-scheme: light) {
@@ -29,8 +28,8 @@
     --title-decor-color: #353430;
     --header-and-title-decor-color: #353430;
     --visible: hidden;
-   
-    }
+    --offset: 20px;
+  }
 }
 
 .page.theme_light {
@@ -44,7 +43,7 @@
   --title-decor-color: #353430;
   --header-and-title-decor-color: #353430;
   --visible: hidden;
-  
+  --offset: 20px;
 }
 
 
