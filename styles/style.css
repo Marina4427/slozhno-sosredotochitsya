@@ -20,7 +20,7 @@ button:focus {
   color: var(--text-color);
 }
 
-.decorated-zone::after { 
+.decorated-zone::after {
   width: 25px;
   height: 25px;
   content: "";
@@ -121,7 +121,8 @@ button:focus-visible {
   display: inline-block;
 }
 
-.title {   /*  отдельный класс чтоб использовать в футере*/
+.title {
+  /*  отдельный класс чтоб использовать в футере*/
   color: var(--header-text-color);
   font-weight: 700;
   font-size: clamp(7.25rem, 0.5625rem + 14.4531vw, 9.8125rem);
