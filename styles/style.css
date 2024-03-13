@@ -20,7 +20,7 @@ button:focus {
   color: var(--text-color);
 }
 
-.decorated-zone::after {   
+.decorated-zone::after { 
   width: 25px;
   height: 25px;
   content: "";
@@ -31,7 +31,7 @@ button:focus {
   border-left: 1px solid var(--header-and-title-decor-color);
 }
 
-.decorated-zone::before { 
+.decorated-zone::before {
   content: "";
   width: 25px;
   height: 25px;
@@ -298,7 +298,7 @@ a:focus-visible {
 
 .footer_text {
   text-shadow: 2px 2px 0 #ff0070;
-  padding: 27.6% 0; 
+  padding: 27.6% 0;
 }
 
 @media (width <= 768px) {
@@ -436,7 +436,7 @@ a:focus-visible {
     margin: 13.9% 0 15.1%;
   }
 
-  .decorate{
+  .decorate {
     align-self: center;
   }
 
