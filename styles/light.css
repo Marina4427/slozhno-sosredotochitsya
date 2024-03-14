@@ -4,19 +4,6 @@
   переключая тему
 */
 
-:root.theme_light {
-  --bg-color: #FFF1F7;
-  --text-color: #353430;
-  --accent-color: #FF8DCB;
-  --header-text-color: #FFC2E6;
-  --backgroung-image: url(../images/cover-image-light.png);
-  --border-button: rgba(53, 52, 48, 0.4);
-  --title-decor-color: #353430;
-  --header-and-title-decor-color: #353430;
-  --visible: hidden;
-  --offset: 20px;
-}
-
 @media (prefers-color-scheme: light) {
   :root {
     --bg-color: #FFF1F7;
@@ -29,11 +16,11 @@
     --header-and-title-decor-color: #353430;
     --visible: hidden;
     --offset: 20px;
+    --main-font: 'IBM Plex Mono';
   }
 }
 
 .page.theme_light {
-  
   --text-color: #353430;
   --accent-color: #FF8DCB;
   --header-text-color: #FFC2E6;
@@ -44,6 +31,7 @@
   --header-and-title-decor-color: #353430;
   --visible: hidden;
   --offset: 20px;
+  --main-font: 'IBM Plex Mono';
 }
 
 
