@@ -36,7 +36,7 @@ button:focus {
   width: 25px;
   height: 25px;
   position: absolute;
-  top: var(--offset) ;
+  top: var(--offset);
   right: var(--offset);
   border-top: 1px solid var(--header-and-title-decor-color);
   border-right: 1px solid var(--header-and-title-decor-color);
@@ -127,7 +127,7 @@ button:focus-visible {
   grid-column: 1/6;
   grid-row: 2/4;
   margin: 0 0 4.2% -2%;
-  text-shadow: 2px 4px 0 #FF0070;
+  text-shadow: 2px 4px 0 #ff0070;
   position: relative;
   align-self: center;
 }
@@ -177,11 +177,11 @@ button:focus-visible {
 }
 
 .container__section-why .multifunctional {
-  grid-row:1/2;
+  grid-row: 1/2;
 }
 
 .container__section-why .dofamin {
-  grid-row:2/3;
+  grid-row: 2/3;
 }
 
 .container__section-why .block-content {
@@ -205,18 +205,17 @@ button:focus-visible {
 
 .container__section-what article {
   display: grid;
-  grid-template-rows: 6% auto;;
+  grid-template-rows: 6% auto;
   grid-template-columns: auto;
-
 }
 
 .container__section-what .multitasking {
-  grid-row:2/3;
+  grid-row: 2/3;
   grid-column: 1/2;
 }
 
 .container__section-what .groseries {
-  grid-row:2/3;
+  grid-row: 2/3;
   grid-column: 2/3;
 }
 
@@ -350,11 +349,11 @@ a:focus-visible {
 
 .footer_text {
   text-shadow: 2px 2px 0 #ff0070;
-  padding: 27.6% 0;
+  padding: 36.5vh 0;
 }
 
-@media (768px <= width <=  1023px) {
-   .header__theme-menu-list {
+@media (768px <= width <= 1023px) {
+  .header__theme-menu-list {
     flex-direction: column;
     gap: 9px;
   }
@@ -384,7 +383,7 @@ a:focus-visible {
   }
 
   .container__section-why .block-content {
-      padding-bottom: 1.5%;
+    padding-bottom: 1.5%;
   }
 
   .container__section-why .block-title {
@@ -394,7 +393,6 @@ a:focus-visible {
   .container__section-what .title-decor {
     grid-column: 1/4;
     margin-bottom: 0;
-
   }
 
   .container__section-what {
@@ -443,7 +441,7 @@ a:focus-visible {
   }
 
   .container__section-advice h4 {
-     margin-bottom: 2.1%;
+    margin-bottom: 2.1%;
   }
 
   .container__section-advice .block-content {
@@ -456,8 +454,12 @@ a:focus-visible {
     padding-bottom: 8.2%;
   }
 
-   .footer_text {
-    padding: 56.5% 0;
+  .footer {
+    min-height: 100vi;
+  }
+
+  .footer_text {
+    padding: 42.5vh 0;
     text-shadow: 2px 2px 0 var(--accent-color);
   }
 }
@@ -468,7 +470,7 @@ a:focus-visible {
   }
 
   .header {
-    --offset:10px;
+    --offset: 10px;
   }
 
   .header__theme-menu {
@@ -652,7 +654,11 @@ a:focus-visible {
     grid-row: 6/7;
   }
 
+  .footer {
+    min-height: 100vi;
+  }
+
   .footer_text {
-    padding: 69% 0%;
+    padding: 39vh 0;
   }
 }
